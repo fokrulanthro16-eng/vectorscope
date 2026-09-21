@@ -28,6 +28,10 @@
   <a href="#-api-reference">API Spec</a>
 </p>
 
+<p align="center">
+  <img src="assets/vectorscope-dashboard.png" alt="VectorScope Mission Control Dashboard" width="100%" />
+</p>
+
 ---
 
 </div>
