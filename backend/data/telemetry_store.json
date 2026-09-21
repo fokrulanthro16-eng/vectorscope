@@ -1,0 +1,79 @@
+{
+  "status": "synchronized",
+  "last_sync": "2026-09-21T17:43:17.090111",
+  "bbox": [
+    -82.64,
+    29.45,
+    -82.15,
+    29.85
+  ],
+  "modis_lst": 27.4,
+  "gpm_rain_72h": 55.6,
+  "thermal_factor": 1.0,
+  "rain_factor": 0.8554,
+  "stac_granules_ingested": [
+    "MOD11A1.061_MODIS_LST_ALACHUA_2026264",
+    "GPM_3IMERGHH_PRECIP_ALACHUA_20260921",
+    "LC09_L2SP_017039_20260921_02_T1"
+  ],
+  "collections_queried": [
+    "MOD11A1.061",
+    "GPM_3IMERGHH.07",
+    "LANDSAT_OT_C2_L2"
+  ],
+  "sectors": [
+    {
+      "id": "sec-east-gvl",
+      "name": "East Gainesville Corridor",
+      "computed_vbi": 79,
+      "svi_priority_score": 113.8,
+      "canopy_cover": 32,
+      "ndwi": 0.41,
+      "lat": 29.652,
+      "lng": -82.298
+    },
+    {
+      "id": "sec-lake-alice",
+      "name": "Lake Alice Basin",
+      "computed_vbi": 74,
+      "svi_priority_score": 84.4,
+      "canopy_cover": 68,
+      "ndwi": 0.72,
+      "lat": 29.6433,
+      "lng": -82.3614
+    },
+    {
+      "id": "sec-hogtown-creek",
+      "name": "Hogtown Creek Greenway",
+      "computed_vbi": 72,
+      "svi_priority_score": 87.1,
+      "canopy_cover": 84,
+      "ndwi": 0.54,
+      "lat": 29.6605,
+      "lng": -82.367
+    },
+    {
+      "id": "sec-sweetwater",
+      "name": "Sweetwater Wetlands Park",
+      "computed_vbi": 70,
+      "svi_priority_score": 81.9,
+      "canopy_cover": 45,
+      "ndwi": 0.88,
+      "lat": 29.628,
+      "lng": -82.338
+    },
+    {
+      "id": "sec-depot-park",
+      "name": "Depot Park Bioretention Cell",
+      "computed_vbi": 66,
+      "svi_priority_score": 85.1,
+      "canopy_cover": 38,
+      "ndwi": 0.6,
+      "lat": 29.643,
+      "lng": -82.3225
+    }
+  ],
+  "sectors_evaluated": 5,
+  "sync_count": 4,
+  "execution_message": "[ETL] Sync complete: Ingested latest NASA satellite tiles."
+}
